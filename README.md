@@ -1,19 +1,28 @@
 # Mi Proyecto
 
-Este proyecto es un robot que escanea productos y actualiza automáticamente el inventario utilizando Google Vision API y MySQL.
+Este proyecto es un robot que escanea productos mediante imágenes, reconoce el producto y actualiza el stock correspondiente, almacena los datos mediante una base de datos local y las consulta para mostrarlos al usuario
+
+## Tecnologías
+
+- **Automatización:** PIX RPA (PIX Studio)
+- **Reconocimiento de Imágenes:** Google Vision (API)
+- **Lógica del proyecto:** Python (Visual Studio)
+- **Base de Datos:** MySQL (WorkBrench)
 
 ## Instalación
 
-1. Clona el repositorio.
+1. Descarga y Extrae el repositorio o Clona el repositorio.
 2. Instala las dependencias:
    ```bash
-   npm install
+   pip install -r requirements.txt
 
 ## Estructura del Proyecto
 
-src/index.js: Archivo principal que ejecuta el robot.
-src/db.js: Archivo para la conexión y operaciones con la base de datos MySQL.
-src/vision.js: Archivo para la integración con Google Vision API.
-clave_api.json: Archivo JSON con las credenciales de Google Vision API.
-package.json: Archivo de configuración de Node.js.
-README.md: Archivo de documentación del proyecto.
+ReconocimientoImagenes-PIX-main/
+├─ src/
+│  ├─ db.py			Archivo para la conexión y operaciones con la base de datos MySQL
+│  ├─ main.py		   Archivo principal que ejecuta el robot.
+│  └─ vision.py		  Archivo para la integración con Google Vision API.
+├─ clave_api.json	     Archivo JSON con las credenciales de Google Vision API.
+├─ requirements.txt	Archivo de configuración de Node.js.
+└─ README.md	      Archivo de documentación del proyecto.

@@ -1,0 +1,13 @@
+{
+    "name": "mi_proyecto",
+    "version": "1.0.0",
+    "description": "Robot para actualizar el stock utilizando Google Vision API y MySQL",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "dependencies": {
+        "mysql": "^2.18.1",
+        "@google-cloud/vision": "^2.4.0"
+    }
+}

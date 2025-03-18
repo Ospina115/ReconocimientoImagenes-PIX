@@ -18,11 +18,11 @@ Este proyecto es un robot que escanea productos mediante imágenes, reconoce el 
 
 ## Estructura del Proyecto
 
-ReconocimientoImagenes-PIX-main/
-├─ src/
-│  ├─ db.py			Archivo para la conexión y operaciones con la base de datos MySQL
-│  ├─ main.py		   Archivo principal que ejecuta el robot.
-│  └─ vision.py		  Archivo para la integración con Google Vision API.
-├─ clave_api.json	     Archivo JSON con las credenciales de Google Vision API.
-├─ requirements.txt	Archivo de configuración de Node.js.
+ReconocimientoImagenes-PIX-main/    
+├─ src/  
+│  ├─ db.py			Archivo para la conexión y operaciones con la DB    
+│  ├─ main.py		   Archivo principal que ejecuta el robot.    
+│  └─ vision.py		  Archivo para la integración con Google Vision API.    
+├─ clave_api.json	     Archivo JSON con las credenciales de Google Vision API.    
+├─ requirements.txt	Archivo de configuración de Node.js.    
 └─ README.md	      Archivo de documentación del proyecto.
